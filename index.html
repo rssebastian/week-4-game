@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>A Game of Crystals!</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/darkly/bootstrap.min.css" rel="stylesheet" integrity="sha384-S7YMK1xjUjSpEnF4P8hPUcgjXYLZKK3fQW1j5ObLSl787II9p8RO9XUGehRmKsxd" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+	<div class = "container">
+		<div class="page-header">
+  			<h1><center>Crystal Collector!</center></h1>
+  		</div>
+	</div>
+
+	<div class="panel panel-default">
+  		<div class="panel-heading">
+    		<h3 class="panel-title"><center>How to Play</center></h3>
+  		</div>
+  		
+  		<div class="panel-body">
+    		<ol>
+    			<li>You will be given a random number at the start of the game.</li>
+    			<li>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score!</li>
+    			<li>You win the game by matching your total score to the randomly generated number. You lose the game if your total score goes above the random number.</li>
+    			<li>The value of each crystal is hidden from you until you click on it.</li>
+    			<li>Each time when the game starts, the game will change the values of each crystal.</li>
+    			<li>Good luck, and have fun! Click any crystal to start the game.</li>
+    		</ol>
+  		</div>
+	</div>
+
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-md-6">
+				<h3><center><span id="goalDiv">0</span></center></h3>
+			</div>
+
+			<div class = "col-md-6">
+				<h3><center>Your total score is: <span id="userSum">0</span></center></h3>
+			</div>
+		</div>
+	</div>
+
+	<br>
+
+	<div class = "container">
+		<div class = "row">
+  			<div class = "col-md-3">
+  				<center><img src = assets/images/ruby.jpg class="img-responsive" id="rubyPic" alt="Ruby"></center>
+      		</div>
+
+      		<div class = "col-md-3">
+				<center><img src = assets/images/sapphire.jpg class="img-responsive" id="sapphirePic" alt="Sapphire"></center>
+      		</div>
+
+      		<div class = "col-md-3">
+  				<center><img src = assets/images/emerald.jpg class="img-responsive" id="emeraldPic" alt="Emerald"></center>
+  			</div>
+
+      		<div class = "col-md-3">
+				<center><img src = assets/images/topaz.jpg class="img-responsive" id="topazPic" alt="Topaz"></center>
+  			</div>
+		</div>
+	</div>
+	
+	<br>
+
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-md-6">
+				<div class="panel panel-default">
+  					<div class="panel-heading">
+    					<h3 class="panel-title"><center>Scoreboard</center></h3>
+  					</div>
+  		
+  					<div class="panel-body">
+    					Wins: <span id = winCount>0</span>
+    					<br>
+    					<br>
+    					Losses: <span id = lossCount>0</span>
+  					</div>
+				</div>
+			</div>
+
+			<div class = "col-md-6">
+				<div class="panel panel-default">
+  					<div class="panel-heading">
+    					<h3 class="panel-title"><center>Message</center></h3>
+  					</div>
+  		
+  					<div class="panel-body">
+    					<h2><center><span id="gameMsg">Start the Game!</span></center></h2>
+  					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+	
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+<!-- Pseudocode!
+	HTML Template
+		1. Create div with title of game
+		2. Create div with game instructions
+		3. Create div with goalNumber with number 19-120
+		4. Create div with winCount, LossCount, and Game Declaration
+		5. Create Ruby, Sapphire, Emerald, Diamond button associated with a random number 1-12
+		6. Create div that shows userScore
+
+	Javascript Necessities
+		1. goalNumber needs to be 19-120
+		2. userScore = 0
+		3. Ruby, Sapphire, Emerald, Diamond add random integers 1-12 to userScore
+		4. winCount++ & Congratulations, You Won! when goalNumber === userScore
+		5. lossCount ++ & Sorry, You Lost! when goalNumber < userScore
+
+
+-->
