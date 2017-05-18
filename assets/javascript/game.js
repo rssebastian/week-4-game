@@ -14,6 +14,10 @@ $(window).on("load", function(){
   		if (userScore === goalNum) {
 		userScore = 0;
 		goalNum = Math.floor((Math.random() * 120) + 19);
+		rubyNum = Math.floor((Math.random() * 12) + 1);
+		sapphireNum = Math.floor((Math.random() * 12) + 1);
+		emeraldNum = Math.floor((Math.random() * 12) + 1);
+		topazNum = Math.floor((Math.random() * 12) + 1);
 		numWins++;
 		$("#gameMsg").text("Congratulations, You Won!");
 		$("#winCount").text(numWins);
@@ -21,6 +25,10 @@ $(window).on("load", function(){
 		} else if (userScore > goalNum) {
 			userScore = 0;
 			goalNum = Math.floor((Math.random() * 120) + 19);
+			rubyNum = Math.floor((Math.random() * 12) + 1);
+			sapphireNum = Math.floor((Math.random() * 12) + 1);
+			emeraldNum = Math.floor((Math.random() * 12) + 1);
+			topazNum = Math.floor((Math.random() * 12) + 1);
 			numLosses++;
 			$("#gameMsg").text("Sorry, You Lost!");
 			$("#lossCount").text(numLosses);
@@ -36,6 +44,10 @@ $(window).on("load", function(){
   		if (userScore === goalNum) {
 		userScore = 0;
 		goalNum = Math.floor((Math.random() * 120) + 19);
+		rubyNum = Math.floor((Math.random() * 12) + 1);
+		sapphireNum = Math.floor((Math.random() * 12) + 1);
+		emeraldNum = Math.floor((Math.random() * 12) + 1);
+		topazNum = Math.floor((Math.random() * 12) + 1);
 		numWins++;
 		$("#gameMsg").text("Congratulations, You Won!");
 		$("#winCount").text(numWins);
@@ -43,6 +55,10 @@ $(window).on("load", function(){
 		} else if (userScore > goalNum) {
 			userScore = 0;
 			goalNum = Math.floor((Math.random() * 120) + 19);
+			rubyNum = Math.floor((Math.random() * 12) + 1);
+			sapphireNum = Math.floor((Math.random() * 12) + 1);
+			emeraldNum = Math.floor((Math.random() * 12) + 1);
+			topazNum = Math.floor((Math.random() * 12) + 1);
 			numLosses++;
 			$("#gameMsg").text("Sorry, You Lost!");
 			$("#lossCount").text(numLosses);
@@ -58,6 +74,10 @@ $(window).on("load", function(){
   		if (userScore === goalNum) {
 		userScore = 0;
 		goalNum = Math.floor((Math.random() * 120) + 19);
+		rubyNum = Math.floor((Math.random() * 12) + 1);
+		sapphireNum = Math.floor((Math.random() * 12) + 1);
+		emeraldNum = Math.floor((Math.random() * 12) + 1);
+		topazNum = Math.floor((Math.random() * 12) + 1);
 		numWins++;
 		$("#gameMsg").text("Congratulations, You Won!");
 		$("#winCount").text(numWins);
@@ -65,6 +85,10 @@ $(window).on("load", function(){
 		} else if (userScore > goalNum) {
 			userScore = 0;
 			goalNum = Math.floor((Math.random() * 120) + 19);
+			rubyNum = Math.floor((Math.random() * 12) + 1);
+			sapphireNum = Math.floor((Math.random() * 12) + 1);
+			emeraldNum = Math.floor((Math.random() * 12) + 1);
+			topazNum = Math.floor((Math.random() * 12) + 1);
 			numLosses++;
 			$("#gameMsg").text("Sorry, You Lost!");
 			$("#lossCount").text(numLosses);
@@ -80,6 +104,10 @@ $(window).on("load", function(){
   		if (userScore === goalNum) {
 		userScore = 0;
 		goalNum = Math.floor((Math.random() * 120) + 19);
+		rubyNum = Math.floor((Math.random() * 12) + 1);
+		sapphireNum = Math.floor((Math.random() * 12) + 1);
+		emeraldNum = Math.floor((Math.random() * 12) + 1);
+		topazNum = Math.floor((Math.random() * 12) + 1);
 		numWins++;
 		$("#gameMsg").text("Congratulations, You Won!");
 		$("#winCount").text(numWins);
@@ -87,6 +115,10 @@ $(window).on("load", function(){
 		} else if (userScore > goalNum) {
 			userScore = 0;
 			goalNum = Math.floor((Math.random() * 120) + 19);
+			rubyNum = Math.floor((Math.random() * 12) + 1);
+			sapphireNum = Math.floor((Math.random() * 12) + 1);
+			emeraldNum = Math.floor((Math.random() * 12) + 1);
+			topazNum = Math.floor((Math.random() * 12) + 1);
 			numLosses++;
 			$("#gameMsg").text("Sorry, You Lost!");
 			$("#lossCount").text(numLosses);
